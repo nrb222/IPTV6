@@ -25,8 +25,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "343315604@qq.com"
+        git config --local user.name "nrb222"
         git add tvxml.xml
         git status  # 添加调试信息
         git commit -m "Update tvxml.xml"
